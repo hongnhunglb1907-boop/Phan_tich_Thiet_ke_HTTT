@@ -92,8 +92,18 @@ Dự án tập trung vào việc:
 - **Đặc tả màn hình** cho các chức năng được phân công
 
 ### Thiết kế Cơ sở dữ liệu (SDD)
-- Vẽ **sơ đồ cơ sở dữ liệu** (Entity Relationship / Logic Database Design)
-- Thiết kế **vật lý cơ sở dữ liệu**: định nghĩa kiểu dữ liệu, ràng buộc, khóa chính/ngoại cho từng bảng
+- Vẽ **sơ đồ cơ sở dữ liệu**: Xây dựng sơ đồ thực thể mối quan hệ (ERD) cho hệ thống quản lý cửa hàng phụ tùng với cấu trúc 14 thực thể. 
+- Thiết kế **vật lý cơ sở dữ liệu**: định nghĩa kiểu dữ liệu, ràng buộc, khóa chính/ngoại cho 14 bảng.
+
+| Nhóm | Các bảng |
+|---|---|
+| Kho & Sản phẩm | `HangHoa`, `Gia` |
+| Giao dịch Nhập | `HoaDonNhap`, `CT_HDN` |
+| Giao dịch Bán | `HoaDonBan`, `CT_HDB`, `KhachHang` |
+| Đối tác | `NhaCungCap` |
+| Đổi trả | `PhieuDoiHang`, `CT_PhieuDoi` |
+| Công nợ | `CongNo`, `CT_CongNo`, `CT_KhachTra` |
+| Hệ thống | `TaiKhoan` |
 
 ### Thiết kế giao diện (Figma)
 Thiết kế wireframe cho các màn hình:
