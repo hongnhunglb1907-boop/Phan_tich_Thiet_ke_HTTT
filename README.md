@@ -1,6 +1,6 @@
 ### Hệ Thống Quản Lý Cửa Hàng Phụ Tùng Xe Máy Tài
 
-> Đồ án môn **Phân Tích & Thiết Kế Hệ Thống** | Trường Đại Học Kinh Tế Đà Nẵng | 09/2025 - 12/2025
+> Dự án môn **Phân Tích & Thiết Kế HTTT** | Trường Đại Học Kinh Tế Đà Nẵng | 09/2025 - 12/2025
 
 ---
 
